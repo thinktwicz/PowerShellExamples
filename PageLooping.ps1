@@ -12,6 +12,7 @@ do
   if($FirstPage)
   {
     $Response = Invoke-RestMethod
+    $FirstPage = $false
   }
   else
   {
