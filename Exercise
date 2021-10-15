@@ -1,0 +1,34 @@
+
+
+<#
+  
+  
+  1) Get your account accross three different modules and enviornments. Grab some properties each time and report the returns from all calls into one report file
+  
+  2) Continue this porcess add in Exchange Online - Get proxylist from EXO, Get Displayname,UPN from MSOL, Get DirSync,Location, and any other property from AzureAD
+  
+  3) Get users from groups
+  
+  4) Get all users from MSOL of upns and objectids 
+  
+  5) Loop through users repeating steps 1-2
+  
+  6) Get PWD Info
+  
+  7) 
+
+  
+  
+#>
+
+
+
+
+
+
+
+
+
+
+
+
