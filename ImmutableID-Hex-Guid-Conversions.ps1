@@ -32,7 +32,7 @@ $IMID = [Convert]::ToBase64String([guid]::New($GuidToChange.ToString()).ToByteAr
 Write-Host "Object ImmutableID cloud side value from Guid" $IMID
 
 #Guid to Hex
-$Guid = [guid]$GuidString.ToString()
+$Guid = [guid]$GuidToChange.ToString()
 #GUID to array of bytes then formatted into hex
 $bytes = $Guid.ToByteArray()
 $hexString = ($bytes|ForEach-Object ToString X2) -join ''
